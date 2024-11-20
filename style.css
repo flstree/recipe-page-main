@@ -19,6 +19,9 @@
 
 body {
     background-color: var(--stone100-color);
+    font-family: "Outfit", serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .container {
@@ -39,4 +42,77 @@ body {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
+    padding: 1rem 0;
+}
+
+.container--text {
+    padding-bottom: 1rem;
+}
+
+.container--section {
+    background-color: var(--rose50-color);
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container--header3 {
+    color: var(--rose800-color);
+}
+
+.container--section ul {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.container--section ul li {
+    padding: 0.5rem;
+}
+
+.container--section ul li span {
+    font-weight: bold;
+} 
+
+.container--header2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--brown800-color);
+}
+
+.container--ingredients {
+    padding: 1rem;
+}
+
+.container--ingredients li {
+    padding: 0.5rem;
+}
+
+hr {
+    margin-bottom: 1rem;
+    border: none;
+    height: 1px;
+    background-color: var(--stone900-color);
+}
+
+.container--instructions {
+    padding: 1rem;
+}
+
+.container--instructions li {
+    padding: 0.5rem;
+}
+
+.container--instructions li span {
+    font-weight: bold;
+} 
+
+.container--table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 2px solid var(--stone900-color);
+    padding-bottom: 2rem;
 }
