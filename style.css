@@ -136,3 +136,22 @@ td {
     font-weight: bold;
     color: var(--brown800-color);
 }
+
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container--image {
+        display: inline-block;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    main {
+        padding: 1.25rem;
+    }
+}
