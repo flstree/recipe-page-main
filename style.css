@@ -9,6 +9,7 @@
     --rose50-color: hsl(330, 100%, 98%);
 
     --font-size: 16px;
+    --hr-height: 2px;
 }
 
 * {
@@ -19,6 +20,7 @@
 
 body {
     background-color: var(--stone100-color);
+    color: var(--stone600-color);
     font-family: "Outfit", serif;
     font-style: normal;
     font-weight: 300;
@@ -43,6 +45,7 @@ body {
     font-weight: 400;
     font-style: normal;
     padding: 1rem 0;
+    color: var(--stone900-color);
 }
 
 .container--text {
@@ -88,10 +91,11 @@ body {
 }
 
 hr {
-    margin-bottom: 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
     border: none;
-    height: 1px;
-    background-color: var(--stone900-color);
+    height:  var(--hr-height);
+    background-color: var(--stone150-color);
 }
 
 .container--instructions {
@@ -113,6 +117,22 @@ hr {
 }
 
 tr {
-    border-bottom: 2px solid var(--stone900-color);
-    padding-bottom: 2rem;
+    border-bottom: var(--hr-height) solid var(--stone150-color);
+}
+
+tr:last-child {
+    border: none;
+}
+
+td {
+    padding: 1rem;
+}
+
+.container--table-title {
+    font-weight: 400;
+}
+
+.container--table-calories {
+    font-weight: bold;
+    color: var(--brown800-color);
 }
